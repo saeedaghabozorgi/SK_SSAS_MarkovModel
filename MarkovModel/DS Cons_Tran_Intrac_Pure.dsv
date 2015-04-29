@@ -1,0 +1,179 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b8bef8e1-d3ea-454e-822b-17cb245537cb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DS Cons_Intract_Trans_Pure</ID>
+  <Name>DS Cons_Tran_Intrac_Pure</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3273" scrolltop="-8732" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="16457" y="21908" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_const_transac_interac_pure_constituents" left="5947" top="318" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4710" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a00006612000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_saeed_const_transac_interac_pure_constituents" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_const_transac_interac_pure_states" left="-419" top="529" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4710" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000661200009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_saeed_const_transac_interac_pure_states" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3991" top="308" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="2256" height="868" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[saeed_const_transac_interac_pure_states-saeed_const_transac_interac_pure_constituents]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5947" y="707" />
+                    <point x="5119" y="707" />
+                    <point x="5119" y="876" />
+                    <point x="4291" y="876" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-3273</DiagramViewPortLeft>
+            <DiagramViewPortTop>-8732</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Working DB</DataSourceID>
+  <Schema>
+    <xs:schema id="DS_x0020_Cons_Intract_Trans_Pure" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DS_x0020_Cons_Intract_Trans_Pure" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="621bc6d3-c3d4-4872-85c3-bec37e8e8d5a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_saeed_const_transac_interac_pure_constituents" msprop:design-time-name="4046ab1f-b58e-4997-934f-adfcc4299018" msprop:FriendlyName="saeed_const_transac_interac_pure_constituents" msprop:DbSchemaName="dbo" msprop:DbTableName="saeed_const_transac_interac_pure_constituents" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CONSTITUENTLOOKUPID" msprop:design-time-name="54e42a4d-9990-44e9-8b79-7ec642698033" msprop:DbColumnName="CONSTITUENTLOOKUPID" msprop:FriendlyName="CONSTITUENTLOOKUPID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PRIMARYADDRESSCITY" msprop:design-time-name="f1cd543a-1231-43e3-9096-9589f47d7c39" msprop:DbColumnName="PRIMARYADDRESSCITY" msprop:FriendlyName="PRIMARYADDRESSCITY" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_saeed_const_transac_interac_pure_states" msprop:design-time-name="a31f1708-5eb0-47a0-9409-d2e89d85aa48" msprop:FriendlyName="saeed_const_transac_interac_pure_states" msprop:DbSchemaName="dbo" msprop:DbTableName="saeed_const_transac_interac_pure_states" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="seq" msprop:design-time-name="d375cb48-f14e-4e2c-ac00-961d7e0774ae" msprop:DbColumnName="seq" msprop:FriendlyName="seq" type="xs:long" />
+                  <xs:element name="CONSTITUENTLOOKUPID" msprop:design-time-name="dc9a74be-0074-4a79-8063-220af774b7b9" msprop:DbColumnName="CONSTITUENTLOOKUPID" msprop:FriendlyName="CONSTITUENTLOOKUPID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ACTION_TYPE" msprop:design-time-name="3873f83e-a8cd-409a-8cea-acf367b69c23" msprop:DbColumnName="ACTION_TYPE" msprop:FriendlyName="ACTION_TYPE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="act_count" msprop:design-time-name="d10d9b98-1e1e-46ef-9ddd-7bc239930554" msprop:DbColumnName="act_count" msprop:FriendlyName="act_count" type="xs:int" minOccurs="0" />
+                  <xs:element name="grp" msprop:design-time-name="82c22211-00a3-4206-9fee-5e9041f5e5ba" msprop:DbColumnName="grp" msprop:FriendlyName="grp" type="xs:long" minOccurs="0" />
+                  <xs:element name="row_num" msprop:design-time-name="cb07dd24-e1d5-4dc7-af46-870493966e6d" msprop:DbColumnName="row_num" msprop:FriendlyName="row_num" type="xs:long" minOccurs="0" />
+                  <xs:element name="PRIMARYADDRESSCITY" msprop:design-time-name="cc5de5f9-392e-4f5b-ba63-272c22f3fc5e" msprop:DbColumnName="PRIMARYADDRESSCITY" msprop:FriendlyName="PRIMARYADDRESSCITY" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_saeed_const_transac_interac_pure_constituents" />
+          <xs:field xpath="CONSTITUENTLOOKUPID" />
+        </xs:unique>
+        <xs:unique name="dbo_saeed_const_transac_interac_pure_states_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_saeed_const_transac_interac_pure_states" />
+          <xs:field xpath="CONSTITUENTLOOKUPID" />
+          <xs:field xpath="seq" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="saeed_const_transac_interac_pure_states-saeed_const_transac_interac_pure_constituents" msdata:parent="dbo_saeed_const_transac_interac_pure_constituents" msdata:child="dbo_saeed_const_transac_interac_pure_states" msdata:parentkey="CONSTITUENTLOOKUPID" msdata:childkey="CONSTITUENTLOOKUPID" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <DS_x0020_Cons_Intract_Trans_Pure xmlns="" />
+  </Schema>
+</DataSourceView>

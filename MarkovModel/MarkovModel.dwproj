@@ -14,26 +14,62 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Working DB.dsv</Name>
-      <FullPath>Working DB.dsv</FullPath>
+      <Name>DS Cons_Tran_BU_Appeal.dsv</Name>
+      <FullPath>DS Cons_Tran_BU_Appeal.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>real DB view.dsv</Name>
-      <FullPath>real DB view.dsv</FullPath>
+      <Name>DS Cons_Tran_inactive.dsv</Name>
+      <FullPath>DS Cons_Tran_inactive.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DS Cons_Tran.dsv</Name>
+      <FullPath>DS Cons_Tran.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DS Cons_Tran_Pure.dsv</Name>
+      <FullPath>DS Cons_Tran_Pure.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DS Cons_Tran_Intrac_Pure.dsv</Name>
+      <FullPath>DS Cons_Tran_Intrac_Pure.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DS Cons_Tran_Intrac.dsv</Name>
+      <FullPath>DS Cons_Tran_Intrac.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sample DB.dsv</Name>
+      <FullPath>Sample DB.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>
-      <Name>Sequence Clustering.dmm</Name>
-      <FullPath>Sequence Clustering.dmm</FullPath>
+      <Name>Donation_BU_Appeal.dmm</Name>
+      <FullPath>Donation_BU_Appeal.dmm</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Constituents.dmm</Name>
-      <FullPath>Constituents.dmm</FullPath>
+      <Name>Donation_Tran.dmm</Name>
+      <FullPath>Donation_Tran.dmm</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>real Constituents.dmm</Name>
-      <FullPath>real Constituents.dmm</FullPath>
+      <Name>Donation_Tran_Inactive.dmm</Name>
+      <FullPath>Donation_Tran_Inactive.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Donation_Tran_Intrac.dmm</Name>
+      <FullPath>Donation_Tran_Intrac.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Donation_Tran_Intrac_pure.dmm</Name>
+      <FullPath>Donation_Tran_Intrac_pure.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Donation_Tran_Pure.dmm</Name>
+      <FullPath>Donation_Tran_Pure.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sample Constituents.dmm</Name>
+      <FullPath>Sample Constituents.dmm</FullPath>
     </ProjectItem>
   </MiningModels>
   <Configurations>

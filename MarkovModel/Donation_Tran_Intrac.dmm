@@ -1,8 +1,8 @@
 ﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="08b43558-cc28-4f73-9e7c-75e552431dc7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>real Constituents</ID>
-  <Name>real Constituents</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Name>Donation_Tran_Intrac</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
@@ -16,7 +16,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6449" scrolltop="-3813" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19103" y="15901" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6449" scrolltop="-3813" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19817" y="20479" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -27,7 +27,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_constituents_states" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6165" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_constituents_states" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="6165" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a00001518000043110000" />
             </control>
@@ -38,7 +38,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_constituents" left="1277" top="6819" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3651" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_constituents" left="1277" top="6819" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3651" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000a0000430e0000af050000" />
             </control>
@@ -49,7 +49,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2703" top="4119" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2703" top="4119" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -99,7 +99,7 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="584b7b87-43df-4c0b-a5ad-7729c82237f6">
     <DataSourceViewID>real DB view</DataSourceViewID>
@@ -126,11 +126,10 @@
       <Annotations>
         <Annotation>
           <Name>MDXFilterComponent</Name>
-          <Value></Value>
         </Annotation>
       </Annotations>
       <ID>Saeed Constituents States</ID>
-      <Name>Saeed Constituents States</Name>
+      <Name>Constituents States</Name>
       <ForeignKeyColumns>
         <ForeignKeyColumn dwd:design-time-name="b81ea18c-b8c3-4a03-8620-024c94551bc7">
           <DataType>WChar</DataType>
@@ -143,18 +142,18 @@
         </ForeignKeyColumn>
       </ForeignKeyColumns>
       <Columns>
-        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ffe9259f-8063-4f07-82e4-45ce35589de2">
-          <ID>INTERACTION TYPE</ID>
-          <Name>INTERACTION TYPE</Name>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ec30373a-2af7-4fb1-be3e-ed2f356b3aa7">
+          <ID>ACTION TYPE</ID>
+          <Name>ACTION TYPE</Name>
           <Type>Text</Type>
           <Content>Discrete</Content>
           <KeyColumns>
-            <KeyColumn dwd:design-time-name="c4d87603-0f03-44ff-927d-d7f9d938ba14">
+            <KeyColumn dwd:design-time-name="27ca71bc-6ec4-449f-b55b-7846a193351a">
               <DataType>WChar</DataType>
               <DataSize>50</DataSize>
-              <Source xsi:type="ColumnBinding" dwd:design-time-name="da62c0c5-7b5d-4f99-98d7-a7811ad6b1bd">
+              <Source xsi:type="ColumnBinding" dwd:design-time-name="8fb82959-3cdb-4063-b486-8cca29458e25">
                 <TableID>dbo_saeed_constituents_states</TableID>
-                <ColumnID>INTERACTION_TYPE</ColumnID>
+                <ColumnID>ACTION_TYPE</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -183,17 +182,11 @@
     <MiningModel dwd:design-time-name="836cd5fc-c7dd-4321-92c1-955deef1f579">
       <ID>real Constituents</ID>
       <Name>real Constituents</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Algorithm>Microsoft_Sequence_Clustering</Algorithm>
-      <AlgorithmParameters>
-        <AlgorithmParameter>
-          <Name>CLUSTER_COUNT</Name>
-          <Value xsi:type="xsd:int">0</Value>
-        </AlgorithmParameter>
-      </AlgorithmParameters>
       <Columns>
         <Column dwd:design-time-name="13fd97a9-6852-45cf-9500-0d9da2ec4901">
           <ID>Constituentlookupid</ID>
@@ -203,20 +196,20 @@
         </Column>
         <Column dwd:design-time-name="8cda7074-7724-43ec-904f-3819995322cc">
           <ID>Saeed Constituents States</ID>
-          <Name>Saeed Constituents States</Name>
+          <Name>Constituents States</Name>
           <SourceColumnID>Saeed Constituents States</SourceColumnID>
           <Columns>
-            <Column dwd:design-time-name="0cd4b24d-2caa-4fa0-9113-c3053d75f526">
-              <ID>INTERACTION TYPE</ID>
-              <Name>INTERACTION TYPE</Name>
-              <SourceColumnID>INTERACTION TYPE</SourceColumnID>
-              <Usage>Predict</Usage>
-            </Column>
             <Column dwd:design-time-name="af857537-6370-4dde-9814-1e3a75ab0ef3">
               <ID>Row</ID>
               <Name>Row</Name>
               <SourceColumnID>Row</SourceColumnID>
               <Usage>Key</Usage>
+            </Column>
+            <Column dwd:design-time-name="e355d906-4229-47d7-a1e1-e6b868d1b65e">
+              <ID>ACTION TYPE</ID>
+              <Name>ACTION TYPE</Name>
+              <SourceColumnID>ACTION TYPE</SourceColumnID>
+              <Usage>Predict</Usage>
             </Column>
           </Columns>
         </Column>

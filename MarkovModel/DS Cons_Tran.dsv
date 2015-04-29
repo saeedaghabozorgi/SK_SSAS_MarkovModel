@@ -1,0 +1,179 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b48d88a1-6541-4e43-945b-58c68044410c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Donation DB</ID>
+  <Name>DS Cons_Tran</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2978" scrolltop="-8520" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20981" y="21908" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_donation_states" left="0" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="6165" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a00001518000043110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_saeed_donation_states" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="saeed_donation_states_constituents" left="9092" top="1508" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4710" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a000066120000af050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_saeed_donation_states_constituents" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="5865" top="1286" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="3527" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[saeed_donation_states-saeed_donation_states_constituents]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="18" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9092" y="1685" />
+                    <point x="7629" y="1685" />
+                    <point x="7629" y="1659" />
+                    <point x="6165" y="1659" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-2978</DiagramViewPortLeft>
+            <DiagramViewPortTop>-8520</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Working DB</DataSourceID>
+  <Schema>
+    <xs:schema id="Donation_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Donation_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="33e8c435-b427-4323-ab09-7486a447d32a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_saeed_donation_states" msprop:design-time-name="1491c3c7-511a-4638-8b4b-701301e9ce89" msprop:FriendlyName="saeed_donation_states" msprop:DbSchemaName="dbo" msprop:DbTableName="saeed_donation_states" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Row" msprop:design-time-name="29494b8c-14ee-448c-aa21-68fd7f264658" msprop:DbColumnName="Row" msprop:FriendlyName="Row" type="xs:long" />
+                  <xs:element name="INTERACTION_DATE" msprop:design-time-name="55615947-bed1-4796-8db1-31778900cac6" msprop:DbColumnName="INTERACTION_DATE" msprop:FriendlyName="INTERACTION_DATE" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="CONSTITUENTLOOKUPID" msprop:design-time-name="a93e723e-4758-46b1-bdf0-4d4973d49863" msprop:DbColumnName="CONSTITUENTLOOKUPID" msprop:FriendlyName="CONSTITUENTLOOKUPID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ACTION_TYPE" msprop:design-time-name="ce198ec2-429a-4b88-b0e0-5fd874d5f7f1" msprop:DbColumnName="ACTION_TYPE" msprop:FriendlyName="ACTION_TYPE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AMOUNT" msprop:design-time-name="9ca18612-4b3f-4987-9426-61348a421766" msprop:DbColumnName="AMOUNT" msprop:FriendlyName="AMOUNT" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="APPLICATION_TYPE" msprop:design-time-name="a7cd2c44-0ee1-4325-a73e-2dcadf7639cf" msprop:DbColumnName="APPLICATION_TYPE" msprop:FriendlyName="APPLICATION_TYPE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="REVENUETRANSACTIONTYPECODE" msprop:design-time-name="1ccbc108-1842-4401-81b3-aaaa299e6520" msprop:DbColumnName="REVENUETRANSACTIONTYPECODE" msprop:FriendlyName="REVENUETRANSACTIONTYPECODE" type="xs:int" minOccurs="0" />
+                  <xs:element name="REVENUEAPPLICATIONTYPECODE" msprop:design-time-name="69571024-57b7-4cee-b35e-937638acdc09" msprop:DbColumnName="REVENUEAPPLICATIONTYPECODE" msprop:FriendlyName="REVENUEAPPLICATIONTYPECODE" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_saeed_donation_states_constituents" msprop:design-time-name="879f5724-d4ea-49ad-8bf2-a155bfc77d5b" msprop:FriendlyName="saeed_donation_states_constituents" msprop:DbSchemaName="dbo" msprop:DbTableName="saeed_donation_states_constituents" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CONSTITUENTLOOKUPID" msprop:design-time-name="b5e9370e-675f-4095-a8e3-5a2da938c492" msprop:DbColumnName="CONSTITUENTLOOKUPID" msprop:FriendlyName="CONSTITUENTLOOKUPID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PRIMARYADDRESSCITY" msprop:design-time-name="7e529896-f75a-45fe-9927-caacf5628cc4" msprop:DbColumnName="PRIMARYADDRESSCITY" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_saeed_donation_states" />
+          <xs:field xpath="CONSTITUENTLOOKUPID" />
+          <xs:field xpath="Row" />
+        </xs:unique>
+        <xs:unique name="dbo_saeed_donation_states_constituents_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_saeed_donation_states_constituents" />
+          <xs:field xpath="CONSTITUENTLOOKUPID" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="saeed_donation_states-saeed_donation_states_constituents" msdata:parent="dbo_saeed_donation_states_constituents" msdata:child="dbo_saeed_donation_states" msdata:parentkey="CONSTITUENTLOOKUPID" msdata:childkey="CONSTITUENTLOOKUPID" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Donation_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>
